@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h4 class="backUp"><i class="fas fa-arrow-up fa-10x"></i>Back to start</h4>
+    <div class="titleCont">
+        <h1>AUG+MINT</h1>
+        <nav>
+            <ul class="navList">
+                <li class="homeLink">Home</li>
+                <li class="aboutLink">About</li>
+                <li class="clientsLink">Clients</li>
+                <li class="projectsLink">Projects</li>
+                <li class="packagesLink">Packages</li>
+            </ul>
+        </nav>
+        <h2>A bespoke web design and developement firm.</h2>
+        <a href="" class="contactBtn">Contact</a><i class="fas fa-angle-double-down fa-10x"></i>
+    </div>
+    <div class="aboutCont">
+        <h1>We are <span>AUG+MINT</span>.</h1>
+        <div class="aboutIMg"></div>
+        <h2>We help improve your brand by<br> developing <span>fresh</span> website.</h2>
+    </div>
+    <div class="reviewCont">
+        <h1>Our top client's <br>reviews:</h1>
+        
+        <p class="disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ab alias, ad ducimus provident delectus blanditiis at eveniet labore quibusdam dolor laborum excepturi, doloremque nulla asperiores ullam impedit ea odit.</p>
+        <div class="reviews">
+            <div class="review">
+                <i class="fas fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <div class="profilePicture">
+    
+            </div>
+            <h2 class="username">MKBHD</h2>
+            <h2 class="userSubName">Verified User <i class="fas fa-check-circle"></i></h2>
+        </div>
+        <div class="review">
+            <i class="fas fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="profilePicture">
+    
+            </div>
+            <h2 class="username">Z-Reviews</h2>
+            <h2 class="userSubName">Verified User <i class="fas fa-check-circle"></i></h2>
+        </div>
+        <div class="review">
+            <i class="fas fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="profilePicture">
+    
+            </div>
+            <h2 class="username">Dave 2D</h2>
+            <h2 class="userSubName">Verified User <i class="fas fa-check-circle"></i></h2>
+        </div>
+        </div>
+    </div>
+    <div class="projectsCont">
+        <div class="project">
+            <h1 class="projectName">Coffee<br> Shop</h1><h1 class="projectNumber">00</h1>
+            <button>See more</button>
+        </div>
+        <div class="project">
+            <h1 class="projectName">Audio<br> Shop</h1><h1 class="projectNumber">01</h1>
+            <button>See more</button>
+        </div>
+        <div class="project">
+            <h1 class="projectName">Product<br> Manager</h1><h1 class="projectNumber">02</h1>
+            <button>See more</button>
+        </div>
+    </div>
+    <div class="packagesCont">
+        <h1>Packages we offer.</h1>
+        <p>We offer 3 levels of service each targeted at a demographic.<br>If none of these feel right to you, contact us and we can personalize a package for what you need.</p>
+        <div class="packages">
+            <div class="package str">
+                <h2>Starter</h2>
+                <p>A great place to start. Get your name out there!</p>
+                <h3>Prices starting at: <br>$200</h3>
+                <ul>
+                    <li>Basic static website</li>
+                    <li>Professionally designed</li>
+                    <li>Completely responsive</li>
+                </ul>
+                <button>Let's get to work!</button>
+            </div>
+            <div class="package pro">
+                <h2>Professional</h2>
+                <p>Building an expirience for your clients. Lets grow your business!</p>
+                <h3>Prices starting at: <br>$500</h3>
+                <ul>
+                    <li>Website with backend support</li>
+                    <li>Professionally designed</li>
+                    <li>Completely responsive</li>
+                    <li>UX & UI designed for the best user expirience</li>
+                </ul>
+                <button>Let's get to work!</button>
+            </div>
+            <div class="package ent">
+                <h2>Enterprise</h2>
+                <p >You already know what you want. Lets improve on it!</p>
+                <h3>Prices starting at: <br>$1000+</h3>
+                <ul>
+                    <li>Full stack web application (backend & frontend)</li>
+                    <li>Professionally designed</li>
+                    <li>Completely responsive</li>
+                    <li>UX & UI designed for the best user expirience</li>
+                    <li>Integration with authentication</li>
+                    <li>Custom content manager application</li>
+                </ul>
+                <button>Let's get to work!</button>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        window.addEventListener('load', function(){
+            
+            console.log("loaded");
+            setTimeout(function(){
+                document.querySelector(".titleCont").classList.add("loadPg");
+            }, 500);
+        })
+        document.querySelector(".backUp").addEventListener('click', function(){
+            console.log("lol")
+            
+            document.querySelector(".titleCont").scrollIntoView()
+        })
+        document.querySelector(".fa-angle-double-down").addEventListener('click', function(){
+            console.log("lol")
+            
+            document.querySelector(".aboutCont").scrollIntoView()
+        })
+        document.querySelector(".aboutLink").addEventListener('click', function(){
+            console.log("lol")
+            
+            document.querySelector(".aboutCont").scrollIntoView()
+        })
+        document.querySelector(".clientsLink").addEventListener('click', function(){
+            console.log("lol")
+            
+            document.querySelector(".reviewCont").scrollIntoView(true)
+        })
+        document.querySelector(".projectsLink").addEventListener('click', function(){
+            console.log("lol")
+            
+            document.querySelector(".projectsCont").scrollIntoView(true)
+        })
+        document.querySelector(".packagesLink").addEventListener('click', function(){
+            console.log("lol")
+            
+            document.querySelector(".packagesCont").scrollIntoView(true)
+        })
+
+    </script>
+    <style> 
+       
+        html{
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+            width: 100vw;
+        }
+        body{
+            scroll-behavior: smooth;
+
+            overflow-x: hidden;
+            margin: 0;
+            background-color: rgb(10, 10, 10);
+            height: max-content
+        }
+        ::-webkit-scrollbar {
+        width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+        background: #ceffe5;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+        background: #131313;
+        border: 2px solid #ceffe5;
+        border-radius: 10px;
+        }
+        .fa-arrow-up{
+            position: fixed;
+            color: white;
+            font-size: 2vw;
+            z-index: 100;
+            left: 0;
+            top: 35%;
+            margin: 1.2%;
+            transition: .2s ease-in;
+        }
+        .backUp{
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            position: fixed;
+            color: white;
+            font-size: 2vw;
+            z-index: 8;
+            left: 0;
+            top: 40%;
+            margin: 1%;
+            opacity: .5;
+            user-select: none;
+            font-family: 'Montserrat', sans-serif;
+            transition: .3s ease-in;
+
+        }
+
+        .backUp:hover .fa-arrow-up{
+            transform: translateY(-20px);
+        }
+        .backUp:hover{
+            opacity: 1;
+            letter-spacing: .1em;
+        }
+        .packagesCont{
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(219, 219, 219);
+            position: relative;
+            margin-top: 300vh;
+            font-family: Arial, Helvetica, sans-serif;
+            overflow-y: visible;
+
+        }
+        .packagesCont h1{
+            font-size: 5vw;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            margin: 0 auto;
+            padding-top: 6%;
+            color: #131313;
+
+        }
+        .packagesCont p {
+            text-align: center;
+        }
+        .packages{
+            padding: 0;
+            margin: 0;
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            grid-template-columns: 6fr 6fr 6fr;
+            height: 100%;
+            margin-top: -8%;
+            padding: 0 3em;
+        }
+        .package{
+            position: relative;
+            justify-content: center;
+            padding: 5em;
+            width: 20vw;
+            height: 50vh;
+            background-color: rgb(56, 56, 56);
+            box-shadow: 0px 14px 37px -7px #000000e7;
+            outline: 2px solid rgba(255, 255, 255, 0.507);
+        }
+        .package p {
+            text-align: left;
+            font-size: 1.5vw;
+        }
+        .package ul{
+            overflow-y: scroll;
+            height: 10vh;
+        }
+        .package li{
+            font-size: 1vw;
+        }
+        .package h2{
+            margin: 0;
+            font-size: 3vw;
+            display: block;
+        }
+        .package h3{
+            font-size: 2vw;
+        }
+        .package button{
+            position: absolute;
+            bottom: 0;
+            height: 5em;
+            width: 20vw;
+            background-color: rgba(15, 15, 15, 0.459);
+            outline: 2px solid white;
+            border: none;
+            color: rgb(255, 255, 255);
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 5em;
+            transition: 0.3s;
+        }
+        .package button:hover{
+            box-shadow: 0px 14px 37px -7px #000000e7;
+
+        }
+        .str{
+            color: rgb(15, 71, 51);
+            background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #1d5f46 0%, #68f7df 100%);
+
+        }
+        .pro{
+            background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+            color: rgb(112, 172, 200);
+        }
+        .ent{
+            background-image: linear-gradient(62deg, #000000 0%, #1a1a1a 100%);
+            color: white;
+
+        }
+        .projectsCont{
+            height: 150vh;
+            width: 100%;
+            margin-bottom: -10% ;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0);
+            overflow-y: visible;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            overflow-y: visible;
+            
+        }
+        .project{
+            margin-top: 10%;
+            height: min-content;
+            padding-bottom: 3%;
+            width: 70%;
+            margin: 0 auto;
+            border-radius: 1em;
+            background-image:linear-gradient(rgba(0, 0, 0, 0.815), rgb(0, 0, 0)), url("project1.jpg");
+            transition: 0.5s ease-in;
+            position: relative;
+            margin-bottom: 8%;
+            box-shadow: 0px 15px 25px 10px #00000085;
+            cursor: pointer;
+        }
+        .project:hover .projectName{
+            color: #aaf0d1;
+
+        }
+        .project button{
+            font-size: 3vw;
+            padding: 0.2em 0em;
+            color: white;
+            position: absolute  ;
+            right: 0%;
+            margin: 5%;
+            bottom: 0%;
+            border: none;
+            border-bottom: 2px solid white;
+            background: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            transition: 0.15s ease-out;
+        }
+        .project button:hover{
+            transform: scale(105%);
+            letter-spacing: 0.1em;
+            color: #aaf0d1;
+
+        }
+        .projectNumber{
+            font-size: 15vw;
+            color: #ffffff75;
+            text-align: right;
+            margin: 5%;
+            margin-top: 10%;
+            font-family: 'Montserrat', sans-serif;
+            font-style: italic;
+
+        }
+        .projectName{
+            transition: 0.5s;
+            font-size: 10vw;
+            color: #ffffff;
+            text-align: left;
+            position: absolute;
+            margin-top: 0;
+            margin: 5%;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+        .aboutCont{
+            height: 100VH;
+            min-height: max-content;
+            width: 100%;
+            position: relative;
+            margin-bottom: 50%;
+            overflow-y: visible;
+        }
+        .aboutCont h1{
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 10vw; 
+            margin: 10%;
+            margin-bottom: 5%;
+            text-align: right;
+        }
+        .aboutCont h2{
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 8vw; 
+            margin: 10%;
+            margin-top: 2%;
+            margin-bottom: 5%;
+            text-align: left;
+        }
+        .aboutIMg{
+            max-width: 800px;
+            min-width: 500px;
+            margin-left: 10%;
+            height: 300px;
+            background-position: center;
+            background-size: cover;
+            top: 0;
+            background-color: rgba(0, 0, 0, 0.424);
+            background-blend-mode: overlay;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url("okeykat-kVkiNOgkjmo-unsplash.jpg");
+        }
+        .aboutCont span{
+            color: #aaf0d1;
+            border-bottom: 2px solid;
+        }
+        .titleCont{
+ 
+            display:block;
+            height: 100vh;
+            margin: 0;
+            padding-top: 1%;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image:linear-gradient(rgb(7, 7, 7), rgb(0, 0, 0)),url("okeykat-kVkiNOgkjmo-unsplash.jpg");
+            filter: brightness(0%);
+            overflow-y: visible;
+
+        }
+        .loadPg{
+            transition: 0.5s ease-in-out;
+            filter: brightness(100%);
+            z-index: 100;
+
+            background-image:linear-gradient(rgba(7, 7, 7, 0.507), rgb(0, 0, 0)),url("okeykat-kVkiNOgkjmo-unsplash.jpg");
+
+        }
+        .titleCont h1{
+            font-family: 'Montserrat', sans-serif;
+            color: #aaf0d1;
+            font-weight: 900;
+            font-size: 3rem;
+            letter-spacing: 1em;
+            cursor: pointer;
+            user-select: none;
+            text-align: center;
+        }
+        .titleCont h2{
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-size: clamp(3rem, 10vw, 8rem); 
+            font-size: 5vw;
+            margin: 10%;
+            margin-bottom: 5%;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 2%;
+        }
+        .navList{
+            color: rgb(255, 255, 255);
+            list-style-type: none;
+            margin-left: -10%;
+        }
+        .navList li{
+            display: inline;
+            margin-left: 9em;
+            cursor: pointer;
+            font-weight: 900;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .navList li:hover{
+            border-bottom: 1px solid white;
+        }
+        .reviewCont{
+            color: #fff;
+            background-color: #4c4c4c;
+            background-image: linear-gradient(90deg, #2c4144 0%, #0f0f0f 100%);            
+            max-width: 1000px;
+            min-width: 600px;
+            margin: 2% auto;
+            padding: 6em;
+            margin-top: 20%;
+            height: 400px;
+            border-radius: 2em;
+            box-shadow: 0px 5px 15px 5px #00000067;
+            margin-bottom: 30%;
+            overflow-y: visible;
+
+        }
+        .reviewCont h1{
+            font-size: 5rem;
+            display: inline;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            color: #aaf0d1;
+
+        }
+        .disc {
+            width: 60%;
+            margin-top: 4%;
+            font-size: 1.5rem;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+        }
+        .review{
+            display: inline-flex;
+            margin-top: 5%;
+            background-color: rgb(12, 12, 12);
+            max-width: 300px;
+            min-width: 200px;
+            font-size: 1.2rem;
+            padding: 3em 2em;
+            padding-bottom: 4em;
+            border-radius: 2em;
+            margin: 0.5%;
+            box-shadow: 0px 5px 15px 5px #00000067;
+            position: relative;
+            font-family: 'Roboto', sans-serif;
+            transition: ease all .5s;
+
+        }
+        .review p {
+            margin-top: 20%;
+            margin-bottom: 20%;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+        .profilePicture{
+            background-image: url("360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin: 1.5em;
+            margin-bottom: 2em;
+        }
+        .username{
+            position: absolute;
+            bottom: 0;
+            font-size: 1.5rem;
+            margin-bottom: 2.3em;
+            font-family: 'Montserrat', sans-serif;
+            color: #aaf0d1;
+
+        }
+        .userSubName{
+            position: absolute;
+            bottom: 0;
+            font-size: 0.8rem;
+            margin-bottom: 3em;
+            color: rgb(161, 161, 161);
+        }
+        .reviews{
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 5%;
+        }
+        .contactBtn{
+            background-color: rgba(148, 148, 148, 0.63);
+            text-decoration: none;
+            padding: 2% 6%;
+            margin-left: 10%;
+            color: #ffffff;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3vw;
+            transition: .2s ease-out;
+            backdrop-filter: blur(100%);
+
+        }
+        .contactBtn:hover{
+            background: none;
+            outline: 2px solid white;
+        }
+        .fa-angle-double-down{
+            color: #fff;
+            text-align: center;
+            left:50%;
+            bottom: 3%;
+            margin-left: 5%;
+            font-size: 4vw;
+            transition: 0.2s ease-out;
+        }
+        .fa-angle-double-down:hover{
+            transform: translateY(20px);
+            opacity: 0.2;
+
+        }
+        @media only screen and (max-width: 900px) {
+        .reviews{
+            flex-direction: column;
+            margin-left: 0%;
+        }
+        .projectsCont{
+            padding-top: 200px;
+        }
+        .review{
+            margin: 0 auto;
+            margin-bottom: 10%;
+            width: 800px;
+        }
+        .reviewCont{
+            border-radius: 0;
+            height: 30em;
+            margin-bottom: 110%;
+        }
+        .navList li{
+            margin-left: 5em;
+        }
+        }
+        @media only screen and (max-height: 900px) {
+        .packagesCont{
+            margin-top: 50vh;
+        }
+        .projectsCont{
+            position: relative;
+            margin-top: 100%;
+            padding-top: 100px;
+            bottom: 0;
+        }
+        .navList li{
+            margin-left: 1vw;
+            font-size: 70%;
+        }
+        .titleCont h1{
+            font-size: 2vw;
+            margin-top: 3vh;
+        }
+        .titleCont h2{
+            font-size: 2.6rem;
+        }
+        .contactBtn{
+            font-size: 2rem;
+        }
+        .aboutCont{
+            margin-bottom: 90%;
+        }
+        .aboutCont h1{
+            font-size: 15vw;
+        }
+        .aboutCont h2{
+            font-size: 10vw;
+            z-index: 1;
+        }
+        .reviewCont{
+            padding-left: 1%;
+        }
+        .reviewCont h1{
+            font-size: 1.5rem;
+            margin: 3%;
+        }
+        .reviewCont h1 br {
+        display: none;
+        }
+        .disc{
+            font-size: 1rem;
+            margin: 3%;
+        }
+        .review{
+            font-size: 1rem;
+
+        }
+        .titleCont{
+            background-attachment: initial;
+        }
+        .aboutIMg{
+            background-attachment: initial;
+            height: 40vh;
+            margin: 0 auto;
+        }
+        }
+        @media (max-height: 900px) and (max-width: 980px) {
+            .review{
+            font-size: 1rem;
+            margin: 0;
+            margin-bottom: 3%;
+        }
+        .project{
+            width: 90%;
+            height: 20vh;
+        }
+        .packages{
+            grid-template-columns: 1fr;
+            justify-items: center;
+            align-items: center;
+            height: 100%;
+            margin-top: 8%;
+            margin-left: -40%;
+            }
+            .package{
+                width: 50%;
+            }
+        }
+        @media (max-width:1200px) {
+            .package h2{
+            margin: 0;
+            font-size: 6vw;
+            display: block;
+            }
+            .package p{
+                font-size: 3vw;
+            }
+            .package li{
+                font-size: 3vw;
+            }
+            .packages{
+            grid-template-columns: 1fr;
+            justify-items: center;
+            align-items: center;
+            height: 100%;
+            margin-top: 8%;
+            padding: 0 3em;
+            
+            }
+            .packagesCont{
+                height: fit-content;
+            }
+            .package{
+                height: fit-content;
+                height: 70%;
+                width: 50%;
+            }
+        }
+    /* CSS stuff */
+}
+    </style>
+</body>
+</html>
